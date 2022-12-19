@@ -10,7 +10,7 @@
 
 # number = int(input("Number: "))
 # print(number - 5)
-
+# https://github.com/mrbadri/basic_python.git
 # print(type("test"))
 
 # str = "heLLo".lower().count('l')
@@ -84,5 +84,50 @@
 
 
 
-for i in range(10): 
-    print(i)
+# for i in range(10): 
+#     print(i)
+
+
+
+
+
+# i = 0
+
+# while True: 
+#     print(i)
+#     i += 1
+#     if i == 10:
+#         break
+
+
+# arr = [1,2,3,4,5,6,7,8]
+
+# result = arr[1:9:2]
+# result = arr[::3]
+# result = arr[5::-1]
+# result = arr[len(arr)::-2]
+
+# # Start:Stop:Step
+
+# print(result)
+
+
+
+x = set()
+s = {1,2,3,4,5}
+s2 = {1,2,31,4,15}
+
+# print(s.union(s2))
+# print(s.difference(s2))
+print(s.intersection(s2))
+
+# s.add(6)
+
+# print(s)
+# print(3 in s)
+
+
+
+
+
+    
