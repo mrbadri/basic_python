@@ -113,18 +113,83 @@
 
 
 
-x = set()
-s = {1,2,3,4,5}
-s2 = {1,2,31,4,15}
+# x = set()
+# s = {1,2,3,4,5}
+# s2 = {1,2,31,4,15}
 
 # print(s.union(s2))
 # print(s.difference(s2))
-print(s.intersection(s2))
+# print(s.intersection(s2))
 
 # s.add(6)
 
 # print(s)
 # print(3 in s)
+
+
+#  --------------------
+# def test(num1, num2=4):
+#     for i in range(num1):
+#         for j in range(num2):
+#             print('b')
+            
+        
+#     return num1 * num2
+
+# test(2 , 2)
+
+# print('%9f'% 10)
+
+
+#  --------------------
+# import math
+
+# def test(a ,b ,c):
+#     p = (a + b + c) / 2
+#     r = p * (p - a ) * (p - b) * (p - c)
+    
+#     print(round(math.sqrt(r) , 9))
+#     print(round(r**0.5 , 2))
+#     print("%.5f" % r**0.5)
+    
+
+# test(2 , 2 , 3)
+
+# a , b , c = map(int, input().split())
+# print(a)
+
+
+#  --------------------
+#  for get multi input
+while True:
+    s = ''
+    line = 0
+    chars = 0
+    
+    try:
+        s = input("enter")
+    except:
+        break
+    
+    cnt = 0
+    for c in s:
+        # if c.isalpha():
+        if (ord('a') <= ord(c) and ord(c) <= ord('z')) or ord('A') <= ord(c) and ord(c) <= ord('Z'):
+            cnt += 1
+    if cnt > 0:
+        line += 1
+        
+    chars += cnt
+    
+    print(line)
+    print(chars)
+    
+    
+    
+
+
+
+
 
 
 
