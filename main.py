@@ -161,30 +161,100 @@
 
 #  --------------------
 #  for get multi input
-while True:
-    s = ''
-    line = 0
-    chars = 0
+# while True:
+#     s = ''
+#     line = 0
+#     chars = 0
     
-    try:
-        s = input("enter")
-    except:
-        break
+#     try:
+#         s = input("enter")
+#     except:
+#         break
     
-    cnt = 0
-    for c in s:
-        # if c.isalpha():
-        if (ord('a') <= ord(c) and ord(c) <= ord('z')) or ord('A') <= ord(c) and ord(c) <= ord('Z'):
-            cnt += 1
-    if cnt > 0:
-        line += 1
+#     cnt = 0
+#     for c in s:
+#         # if c.isalpha():
+#         if (ord('a') <= ord(c) and ord(c) <= ord('z')) or ord('A') <= ord(c) and ord(c) <= ord('Z'):
+#             cnt += 1
+#     if cnt > 0:
+#         line += 1
         
-    chars += cnt
+#     chars += cnt
     
-    print(line)
-    print(chars)
+#     print(line)
+#     print(chars)
+
+# ---------------
+# primer number:
+# n = int(input())
+# divisors = 0
+
+# for i in range(1, n +1):
+#     if(n % i == 0):
+#         divisors += 1
+
+# if divisors == 2:
+#     print("YES")
+# else:
+#     print("NO") 
     
     
+# n = int(input())
+
+# if(n == 1):
+#     print("NO")
+
+# for i in range(1, int(n**0.5 + 1.1) ):
+#     if(n % i == 0) :
+#         print('No')
+#         break
+
+# else: 
+#     print('YES')      
+
+
+# function is_primer():
+
+# 6k => X
+# 6k + 1 => O
+# 6k + 2 => X
+# 6k + 3 => X
+# 6k + 4 => X
+# 6k + 5 => o
+
+# def is_prime(n):
+#     if n < 2: 
+#         return False
+    
+#     if n == 2 or n ==3 :
+#         return True
+    
+#     if n % 2 == 0 or n % 3 == 0:
+#         return False
+    
+#     for i in range(5, int(n**0.5 + 1.1), 6):
+#         if n % i == 0:
+#             return False
+        
+#     for i in range(7, int(n**0.5 + 1.1), 6):
+#         if n % i == 0:
+#             return False
+        
+#     return True
+        
+        
+# ---------
+# maghsom alayh:
+# for mask in range(2**n): 
+#     A = list()
+#     for i in range(n):
+#         if(mask and (2**i)) != 0:
+#             A.append(i + 1)
+
+# print(A)
+          
+# --------------------
+
     
 
 
